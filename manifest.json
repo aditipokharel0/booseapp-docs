@@ -36,7 +36,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "BOOSEapp.Form1",
-      "Summary": "<p sourcefile=\"api/BOOSEapp.Form1.yml\" sourcestartlinenumber=\"1\">Main Windows Form that hosts the BOOSE interpreter.\nIt handles user input, runs the BOOSE program, and draws output.</p>\n"
+      "Summary": "<p sourcefile=\"api/BOOSEapp.Form1.yml\" sourcestartlinenumber=\"1\">Main Windows Forms UI for running BOOSE programs, showing output, and drawing to the canvas.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -68,6 +68,62 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEappTests.InterpreterControlFlowTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEappTests.InterpreterControlFlowTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEappTests.InterpreterControlFlowTests",
+      "Summary": "<p sourcefile=\"api/BOOSEappTests.InterpreterControlFlowTests.yml\" sourcestartlinenumber=\"1\">Unit tests for BOOSE interpreter control flow statements,\nincluding if/else branching, while loops, and for loops.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEappTests.InterpreterDrawingTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEappTests.InterpreterDrawingTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEappTests.InterpreterDrawingTests",
+      "Summary": "<p sourcefile=\"api/BOOSEappTests.InterpreterDrawingTests.yml\" sourcestartlinenumber=\"1\">Unit tests for BOOSE interpreter drawing commands and pen position updates.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEappTests.InterpreterMethodsTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEappTests.InterpreterMethodsTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEappTests.InterpreterMethodsTests",
+      "Summary": "<p sourcefile=\"api/BOOSEappTests.InterpreterMethodsTests.yml\" sourcestartlinenumber=\"1\">Unit tests for BOOSE interpreter method support (definition, call, return value, and scope).</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEappTests.InterpreterVariablesTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEappTests.InterpreterVariablesTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEappTests.InterpreterVariablesTests",
+      "Summary": "<p sourcefile=\"api/BOOSEappTests.InterpreterVariablesTests.yml\" sourcestartlinenumber=\"1\">Unit tests for BOOSE interpreter variable support (int, real, boolean, arrays, and write output).</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/BOOSEappTests.Test1.yml",
       "output": {
         ".html": {
@@ -78,7 +134,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "BOOSEappTests.Test1",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/BOOSEappTests.Test1.yml\" sourcestartlinenumber=\"1\">Placeholder test class used for basic test project validation.</p>\n"
     },
     {
       "type": "ManagedReference",
